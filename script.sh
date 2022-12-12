@@ -1,0 +1,4 @@
+#!/bin/bash
+
+docker build -t im3-gil23:latest .
+docker run --name contenidor03-gil23 -p 80:80 -i -t -d im03-gil23
